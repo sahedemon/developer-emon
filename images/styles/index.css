@@ -1,0 +1,134 @@
+*{
+    margin: 0%; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*headar and navgation style*/
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 51px 200px;
+    align-items: center;
+}
+header{
+    align-items: center;
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 51px;
+    align-items: center;
+}
+    
+
+
+.nav-title{
+    font-weight: 600;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+
+}
+
+.btn-primary{  
+    color: #FFFFFF;     
+    font-weight: 500;
+    font-size: 20px;
+    height: 6opx;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 9px 18px;
+    align-items: center;
+
+}
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content:space-between;
+    margin: 51px 200px;
+    align-items: center;
+}
+
+.banner-title{font-weight: 700;
+font-size: 40px;
+
+}
+.banner-sub-title{ font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+.banner-desceription{
+    color: #757575;
+    font-weight: 400;
+font-size: 18px;
+margin-bottom: 20px;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+    /* main section */
+
+    main{
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+
+/* abuot section styles*/
+
+.abuot{
+    text-align: center;
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+
+
+}
+.abuot-section{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 700px;
+    font-size: 35px; 
+}
+.abuot-desciription{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+/* about info container  */
+
+.about-info-containar{
+   
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.abuot-info{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info-taitle{
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+.info-desciription{
+    font-weight: 400;
+    font-size: 20px;
+}
